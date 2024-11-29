@@ -1,0 +1,54 @@
+.card {
+    display: contents;
+    justify-content: center;
+    align-content: center;
+    /* position: relative; */
+    /* background-color: aliceblue; */
+    /* cursor: pointer; */
+}
+
+img.image {
+    width: 100%; 
+    height: 350px;
+    display: block;
+    cursor: pointer;
+}
+p.product-name {
+    font-size: 25px;
+    font-weight: 600;
+}
+p.price {
+    font-style: italic;
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.hoverImg {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    bottom: 430px;
+    margin-bottom: -400px;
+ }
+.image-cap{
+    width: 100%;
+    height: 350px;
+    /* margin-left: 5px; */
+   display: block;
+}
+.btn{
+    position: absolute;
+    bottom: 8%;
+    right: 1%;
+    left: 1%;
+}
+button.btn-left {
+    margin-right: 10px;
+}
+.hoverImg:hover .btn{
+    opacity: 1;
+}
